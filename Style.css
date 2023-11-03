@@ -1,0 +1,70 @@
+header .logo {
+  text-align: left;
+  width: 50%;
+}
+header .links {
+  text-align: right;
+  width: 50%;
+}
+header {
+  display: flex;
+  align-items: end;
+}
+header .links a {
+  text-decoration: underline;
+  color: black;
+}
+header .links a:hover {
+  color: #007acc;
+}
+header .links b {
+  color: blue;
+}
+nav {
+  background-color: #3fb550;
+  width: 1460px;
+  height: 30px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+nav .search input[type="text"] {
+  margin: 4px;
+}
+nav .search input[type="submit"] {
+  margin: 4px;
+}
+.menu {
+  flex: 1;
+}
+nav .menu ul {
+  padding: 5px;
+}
+
+nav .menu li {
+  display: inline;
+  padding-right: 10px;
+}
+
+nav .menu a:hover {
+  text-decoration: underline;
+  color: skyblue;
+}
+nav .menu a {
+  text-decoration: none;
+}
+.custom_product {
+  text-align: left;
+  width: 10cm;
+  height: 10cm;
+  float: left;
+  margin: 0 auto;
+}
+.marquee {
+  width: 10cm;
+  height: 300px;
+}

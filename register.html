@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label {
+        width: 150px; 
+        text-align: left;
+        
+    }
+
+    fieldset {
+        width: 350px; 
+        
+    }
+    td{
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <table border="2px  " style="border-collapse: collapse; width:30%;margin: 0 auto;">
+        <tr style="border-bottom: none;">
+            <td style="text-align: center;"><b>MEMBER REGISTER</b></td>
+        </tr>
+        <tr style="border-bottom: none;">
+            <td>
+                <form action="#" method="dangky" method="post">
+                    <fieldset>
+                        <legend><b>Personal information</b></legend>
+                        <table border="0" style="border-collapse: separate;">
+                            <tr>
+                                <td><label for="username">Full name:</label></td>
+                                <td><input type="text" id="username" name="username" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="day">Birthday:</label></td>
+                                <td>
+                                    <select id="day" name="day" required>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                    <label for="month">Month:</label>
+                                    <select id="month" name="month" required>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    <label for="year">Year:</label><input type="number" id="year" name="year"
+                                        style="width: 50px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="gender">Gender:</label></td>
+                                <td>
+                                    <input type="radio" id="nam" name="gender" value="Nam" required>
+                                    <label for="nam">Male</label>
+                                    <input type="radio" id="nu" name="gender" value="nu" required>
+                                    <label for="nu">Female</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="address">Address:</label></td>
+                                <td><textarea name="address" id="address" rows="3" cols="25"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phone">Telephone:</label></td>
+                                <td><input type="tel" id="phone" name="phone" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="email" id="email" name="email" required></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+        <tr style="border-bottom: none;">
+            <td>
+                <form action="" method="">
+                    <fieldset>
+                        <legend><b>Credentials</b></legend>
+                        <table border="0">
+                            <tr>
+                                <td><label for="loginname">Username:</label></td>
+                                <td><input type="text" id="loginname" name="loginname" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="password">Password:</label></td>
+                                <td><input type="password" id="password" name="password" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="repassword">Confirm password:</label></td>
+                                <td><input type="password" id="repassword" name="repassword" required></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td><button>Đăng ký</button> <button>Hủy</button></td>
+
+        </tr>
+    </table>
+
+</body>
+
+</html>
